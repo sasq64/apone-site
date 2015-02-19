@@ -1,0 +1,31 @@
+title: "apone"
+author: "Jonas Minnberg"
+description: "About apone"
+#subheading: "Really cool blog about ... something"
+#more: "read more"
+url: "http://apone.org"
+#baseurl: "/contrast" # comment out if in root directory
+
+#comments:
+ #   disqus: "niklasbuschmann"
+#    isso: "comments.mysite.org"
+
+style:
+#    body: "whitesmoke"
+    padding: 25%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+  - github: "https://github.com/sasq64/apone/"
+  - twitter: "https://twitter.com/sasq64/"
+  - google-plus: "https://plus.google.com/u/0/+JonasMinnberg"
+
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
